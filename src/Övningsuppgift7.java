@@ -18,8 +18,7 @@ public class Övningsuppgift7 extends JFrame  {
     JButton button8 = new JButton("Blå?");
 
     JButton button9 = new JButton("Grön?");
-    JButton button10 = new JButton("Purpur?");
-
+    JButton button10 = new JButton("Lila");
 
 
 
