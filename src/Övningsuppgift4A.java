@@ -29,13 +29,13 @@ public class Övningsuppgift4A extends JFrame implements ActionListener {
         area.setFont(new Font("Monospaced", Font.PLAIN, 12));
         p.setLayout(new BorderLayout());
         p.add(scrollPane, BorderLayout.CENTER);
+        p.add(buttonPanel, BorderLayout.NORTH);
         buttonPanel.add(textByTextField);
         buttonPanel.add(inputField);
         buttonPanel.add(openButton);
         buttonPanel.add(saveButton);
         buttonPanel.add(printButton);
         buttonPanel.add(exitButton);
-        p.add(buttonPanel, BorderLayout.NORTH);
         openButton.addActionListener(this);
         saveButton.addActionListener(this);
         printButton.addActionListener(this);
@@ -54,6 +54,14 @@ public class Övningsuppgift4A extends JFrame implements ActionListener {
             area.setText("");
         }
         else if (e.getSource() == saveButton){
+            String newText = area.getText() + area.getText();
+            area.setText(newText);
+        }
+        else if (e.getSource() == printButton){
+            String newText = area.getText() + area.getText();
+            area.setText(newText);
+        }
+        else if (e.getSource() == exitButton){
             String newText = area.getText() + area.getText();
             area.setText(newText);
         }
