@@ -15,6 +15,7 @@ public class Övningsuppgift7 extends JFrame  {
 
     JPanel panel7 = new JPanel();
     JButton button7 = new JButton("Röd?");
+    JButton button8 = new JButton("Blå?");
 
 
 
@@ -30,6 +31,9 @@ public class Övningsuppgift7 extends JFrame  {
         setVisible(true);
         pack();
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+
+        //lite test text blablblabla
+        //lite mer text
 
     }
 
