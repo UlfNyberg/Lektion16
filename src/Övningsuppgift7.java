@@ -16,6 +16,8 @@ public class Övningsuppgift7 extends JFrame  {
     JPanel panel7 = new JPanel();
     JButton button7 = new JButton("Röd?");
 
+    JButton button9 = new JButton("Grön?");
+
 
 
     Övningsuppgift7(){
